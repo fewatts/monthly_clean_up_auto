@@ -1,0 +1,20 @@
+{
+  "Sibex Name": "AQUA",
+  "Product Name": "AQUA",
+  "Children": [
+    {
+      "Sibex Name": "AQUA SOFTWARE",
+      "Product Name": "AQUA BASE LICENSE",
+      "Children": [
+        { "Sibex Name": "AQUA ADDITIONAL DEVICE LICENSE", "Product Name": "TRT 7411-AQUA ADD DEVICE", "Children": [] },
+        { "Sibex Name": "AQUA BRACHY DEVICE LICENSE",      "Product Name": "AQUA BRACHYTHERAPY DEVICE LIC", "Children": [] },
+        { "Sibex Name": "AQUA DIAGNOSTIC DEVICE LICENSE",  "Product Name": "AQUA DIAGNOSTIC DEVICE LICENSE", "Children": [] },
+        { "Sibex Name": "AQUA MRL DEVICE LICENSE",         "Product Name": "AQUA MR LINAC DEVICE LICENSE", "Children": [] },
+        { "Sibex Name": "AQUA MRL DEV LIC",                "Product Name": "MRT 29671, AQUA MRL DEVICE LIC", "Children": [] },
+        { "Sibex Name": "AQUA TREATMENT DEVICE LICENSE",   "Product Name": "AQUA TREATMENT DEVICE LICENSE", "Children": [] },
+        { "Sibex Name": "AQUA3.0BRACHY DEV LIC",              "Product Name": "MRT32081,AQUA3.0BRACHY DEV LIC", "Children": [] },
+        { "Sibex Name": "PRT 0131, AQUA SERVER",              "Product Name": "PRT 0131, AQUA SERVER", "Children": [] }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+    "Product Code": "#SMARTFLOW",
+    "Product Name": "SMART FLOW",
+    "Children": [       
+        {"Product Code": "C#88600", "Product Name": "SCL ELEKTA MED SW PLTFRM SRVR", "Children": []},
+        {"Product Code": "C#92808", "Product Name": "3RD PARTY APP CONNECT SUBSCRIP", "Children": []},
+        {"Product Code": "C#89512-10", "Product Name": "SRP - SMART FLOW SW SUBSCR", "Children": []},
+        {"Product Code": "C#89512-13", "Product Name": "SRP - SMART FLOW 1.3 SW SUBSCR", "Children": []},
+        {"Product Code": "C#89513-10", "Product Name": "SRP-ELEKTA PLATFORM SW SUBSCR", "Children": []},
+        {"Product Code": "C#89511-12", "Product Name": "SRP - SMART FLOW 1.2 SW PRPTL", "Children": []},
+        {"Product Code": "C#89512-12", "Product Name": "SRP - SMART FLOW 1.2 SW SUBSCR", "Children": []},
+        {"Product Code": "C#89511-13", "Product Name": "SRP - SMART FLOW 1.3 SW PRPTL", "Children": []},
+        {"Product Code": "#SMARTFLOW_SW", "Product Name": "SMART FLOW SOFTWARE", "Children": []},
+        {"Product Code": "C#89512-14", "Product Name": "SRP - SMART FLOW", "Children": []}
+    ]
+}

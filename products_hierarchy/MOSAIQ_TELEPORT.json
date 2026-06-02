@@ -1,0 +1,19 @@
+{
+    "Product Code": "#MSQTELEPORT",
+    "Product Name": "MOSAIQ TELEPORT",
+    "Children": [
+        {"Product Code": "#MSQTELEPORT_SW", "Product Name": "MOSAIQ TELEPORT SOFTWARE", "Children": []},  
+        {"Product Code": "MPS00000030", "Product Name": "SAAS-IMP-TPT", "Children": []},
+        {"Product Code": "TPP-PALABRATELS", "Product Name": "PALABRA TELEPORT ANNUAL MO", "Children": []},
+        {"Product Code": "15800000008", "Product Name": "MOSAIQ TELEPORT MO SUB X MD", "Children": []},
+        {"Product Code": "TPP-PALTELS-1-4", "Product Name": "PALABRA TELEPORT ANNUAL - 1-4", "Children": []},
+        {"Product Code": "TPP-PALTEL-5-10", "Product Name": "PALABRA TELEPORT ANNUAL - 5-10", "Children": []},
+        {"Product Code": "TPP-PALTELS-10+", "Product Name": "PALABRA TELEPORT ANNUAL - 10+", "Children": []},
+        {"Product Code": "15800000014", "Product Name": "MOSAIQ TELEPORT RO ANNUAL 1-4", "Children": []},
+        {"Product Code": "15800000015", "Product Name": "MOSAIQ TELEPORT RO ANNUAL 10+", "Children": []},
+        {"Product Code": "15800000012", "Product Name": "MOSAIQ TELEPORT RO ANNUAL 5-9", "Children": []},
+        {"Product Code": "15800000039", "Product Name": "MOSAIQ TELEPORT RO SUB X LINAC", "Children": []},
+        {"Product Code": "15800000013", "Product Name": "MOSAIQ TELEPORT IS", "Children": []},
+        {"Product Code": "15800000008S", "Product Name": "MOSAIQ TELEPORT SUBSCR", "Children": []}
+    ]
+}

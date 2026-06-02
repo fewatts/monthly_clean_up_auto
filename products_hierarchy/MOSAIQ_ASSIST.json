@@ -1,0 +1,23 @@
+{
+    "Product Code": "#MOSAIQASSIST",
+    "Product Name": "MOSAIQ ASSIST",
+    "Children": [
+        {"Product Code": "#MOSAIQASIST_SW", "Product Name": "MOSAIQ ASSIST SOFTWARE", "Children": []},     
+        {"Product Code": "TPP-PALABRAMINI", "Product Name": "MINIPALABRA ANNUAL", "Children": []},
+        {"Product Code": "15800000005", "Product Name": "MOSAIQ MINIVOICE ANNUAL", "Children": []},
+        {"Product Code": "15800000030", "Product Name": "MOSAIQ ASSIST ANNUAL SUB USER", "Children": []},
+        {"Product Code": "15800000032S", "Product Name": "MOSAIQ ASSIST TRN TIER 1 REMOT", "Children": []},
+        {"Product Code": "15800000033S", "Product Name": "MOSAIQ ASSIST TRN TIER 2 REMOT", "Children": []},
+        {"Product Code": "15800000034S", "Product Name": "MOSAIQ ASSIST TRN TIER 3 REMOT", "Children": []},
+        {"Product Code": "15800000035S", "Product Name": "MOSAIQ ASSIST TRN TIER 3 ONSIT", "Children": []},
+        {"Product Code": "15800000036S", "Product Name": "MOSAIQ ASSIST TRN - ENTERPRISE", "Children": []},
+        {"Product Code": "15800000037", "Product Name": "MOSAIQ ASSIST 5 ADDL TEMPLT IS", "Children": []},
+        {"Product Code": "15800000038", "Product Name": "MOSAIQ ASSIST LICENSE TRANS IS", "Children": []},
+        {"Product Code": "15800000032", "Product Name": "MOSAIQ ASSIST TIER 1 IS", "Children": []},
+        {"Product Code": "15800000033", "Product Name": "MOSAIQ ASSIST TIER 2 IS", "Children": []},
+        {"Product Code": "15800000034", "Product Name": "MOSAIQ ASSIST TIER 3 IS", "Children": []},
+        {"Product Code": "15800000035", "Product Name": "MOSAIQ ASSIST TRN TIER 3 ONSIT", "Children": []},
+        {"Product Code": "15800000036", "Product Name": "MOSAIQ ASSIST TRN - ENTERPRISE", "Children": []},
+        {"Product Code": "15800000030S", "Product Name": "MOSAIQ ASSIST ANNUAL USER SUBS", "Children": []}
+    ]
+}
