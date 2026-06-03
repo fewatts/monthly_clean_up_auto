@@ -1,0 +1,269 @@
+Latest extract date: 25/02/2026 09:12 AM
+================================================================================
+
+
+================================================================================
+RAP | January 2026 – Software Installations & Data Check
+================================================================================
+
+Hello Team,
+Here's a quick update from the January CLM extract:
+
+Note: If you notice anything in this report that did not happen or installations that haven't been registered in CLM,
+please let us know so we can adjust accordingly to keep everything accurate.
+
+Important: Please make sure to insert the missing software version correctly where indicated.
+
+Monaco: 3 sites
+        1x for 20393
+        1x for 30001657
+        2x for 30005649
+MOSAIQ: 2 sites
+        1x for 30005649
+        1x for 30007970 (Missing SW version)
+ThinkQA / DOSIsoft, AQUA, Monaco MIM, TELEPORT, VOICE, ASSIST, SMARTFLOW, SMARTCLINIC, KAIKU, MOA: No installations Recorded
+
+RAP All SW's | Salesforce
+Thanks, and feel free to reach out if you have any questions or need adjustments.
+Best regards,
+Fernando
+
+
+================================================================================
+RCH | January 2026 – Software Installations & Data Check
+================================================================================
+
+Hello Team,
+Here's a quick update from the January CLM extract:
+
+Note: If you notice anything in this report that did not happen or installations that haven't been registered in CLM,
+please let us know so we can adjust accordingly to keep everything accurate.
+
+Monaco: 10 sites
+        3x for 11851
+        6x for 12729
+        3x for 15151
+        6x for 17475
+        6x for 30001721
+        1x for 30005110
+        6x for 30007680
+        4x for 30007682
+        6x for 30008357
+        6x for 30008602
+MOSAIQ: 8 sites
+        1x for 12729
+        1x for 15151
+        1x for 17475
+        1x for 30001721
+        1x for 30007680
+        1x for 30007682
+        1x for 30008357
+        1x for 30008602
+ThinkQA / DOSIsoft, AQUA, Monaco MIM, TELEPORT, VOICE, ASSIST, SMARTFLOW, SMARTCLINIC, KAIKU, MOA: No installations Recorded
+
+RCH All SW's | Salesforce
+Thanks, and feel free to reach out if you have any questions or need adjustments.
+Best regards,
+Fernando
+
+
+================================================================================
+REU | January 2026 – Software Installations & Data Check
+================================================================================
+
+Hello Team,
+Here's a quick update from the January CLM extract:
+
+Note: If you notice anything in this report that did not happen or installations that haven't been registered in CLM,
+please let us know so we can adjust accordingly to keep everything accurate.
+
+Important: Please make sure to insert the missing software version correctly where indicated.
+
+ThinkQA / DOSIsoft: 7 sites
+        1x for 10420
+        1x for 12569
+        1x for 13271
+        1x for 18997 (Missing SW version)
+        4x for 19006 (Missing SW version)
+        1x for 30002550
+        1x for 30003442
+Monaco: 6 sites
+        1x for 10420
+        4x for 11790
+        1x for 11863
+        1x for 12569
+        2x for 13271
+        5x for 30003442
+Monaco MIM: 5 sites
+        1x MAESTRO & 1x CPAI for 10420
+        1x MAESTRO & 1x CPAI for 11863
+        1x MAESTRO & 1x CPAI for 12569
+        2x MAESTRO & 2x CPAI for 13271
+        4x MAESTRO & 4x CPAI for 30003442
+AQUA, MOSAIQ, TELEPORT, VOICE, ASSIST, SMARTFLOW, SMARTCLINIC, KAIKU, MOA: No installations Recorded
+
+REU All SW's | Salesforce
+Thanks, and feel free to reach out if you have any questions or need adjustments.
+Best regards,
+Fernando
+
+
+================================================================================
+RJP | January 2026 – Software Installations & Data Check
+================================================================================
+
+Hello Team,
+Here's a quick update from the January CLM extract:
+
+Note: If you notice anything in this report that did not happen or installations that haven't been registered in CLM,
+please let us know so we can adjust accordingly to keep everything accurate.
+
+Important: Please make sure to insert the missing software version correctly where indicated.
+
+ThinkQA / DOSIsoft: 1 sites
+        1x for 16410
+AQUA: 1 sites
+        1x for 16410
+Monaco: 1 sites
+        1x for 16410
+MOSAIQ: 1 sites
+        1x for 16410 (Missing SW version)
+Monaco MIM, TELEPORT, VOICE, ASSIST, SMARTFLOW, SMARTCLINIC, KAIKU, MOA: No installations Recorded
+
+RJP All SW's | Salesforce
+Thanks, and feel free to reach out if you have any questions or need adjustments.
+Best regards,
+Fernando
+
+
+================================================================================
+RNCA | January 2026 – Software Installations & Data Check
+================================================================================
+
+Hello Team,
+Here's a quick update from the January CLM extract:
+
+Note: If you notice anything in this report that did not happen or installations that haven't been registered in CLM,
+please let us know so we can adjust accordingly to keep everything accurate.
+
+Important: Please make sure to insert the missing software version correctly where indicated.
+
+Monaco: 7 sites
+        5x for 12231
+        1x for 14590
+        1x for 17340
+        2x for 30003003
+        3x for 30004777
+        2x for 30005173
+        1x for 98300
+Monaco MIM: 2 sites
+        2x MAESTRO & 2x CPAI for 30004777
+        1x MAESTRO & 1x CPAI for 30005173
+MOSAIQ: 5 sites
+        1x for 10714
+        1x for 11678
+        1x for 12238 (Missing SW version)
+        1x for 13658 (Missing SW version)
+        1x for 13868
+TELEPORT: 1 sites
+        1x for 13658 (Missing SW version)
+SMARTCLINIC: 1 sites
+        1x for 11564 (Missing SW version)
+ThinkQA / DOSIsoft, AQUA, VOICE, ASSIST, SMARTFLOW, KAIKU, MOA: No installations Recorded
+
+RNCA All SW's | Salesforce
+Thanks, and feel free to reach out if you have any questions or need adjustments.
+Best regards,
+Fernando
+
+
+================================================================================
+RSA | January 2026 – Software Installations & Data Check
+================================================================================
+
+Hello Team,
+Here's a quick update from the January CLM extract:
+
+Note: If you notice anything in this report that did not happen or installations that haven't been registered in CLM,
+please let us know so we can adjust accordingly to keep everything accurate.
+
+ThinkQA / DOSIsoft: 4 sites
+        2x for 13437
+        1x for 20392
+        1x for 30000438
+        2x for 30002597
+Monaco: 5 sites
+        1x for 13437
+        1x for 20392
+        1x for 30000442
+        2x for 30002597
+        1x for 30005069
+AQUA, Monaco MIM, MOSAIQ, TELEPORT, VOICE, ASSIST, SMARTFLOW, SMARTCLINIC, KAIKU, MOA: No installations Recorded
+
+RSA All SW's | Salesforce
+Thanks, and feel free to reach out if you have any questions or need adjustments.
+Best regards,
+Fernando
+
+
+================================================================================
+RTIMEA | January 2026 – Software Installations & Data Check
+================================================================================
+
+Hello Team,
+Here's a quick update from the January CLM extract:
+
+Note: If you notice anything in this report that did not happen or installations that haven't been registered in CLM,
+please let us know so we can adjust accordingly to keep everything accurate.
+
+Important: Please make sure to insert the missing software version correctly where indicated.
+
+ThinkQA / DOSIsoft: 4 sites
+        1x for 11760
+        1x for 30004390
+        1x for 30006626
+        1x for 30007435
+AQUA: 2 sites
+        1x for 30006743
+        1x for 30006744
+Monaco: 14 sites
+        5x for 11760
+        4x for 11826
+        3x for 17163
+        3x for 17465
+        1x for 30001104
+        2x for 30004390
+        5x for 30006626
+        1x for 30006743
+        3x for 30006744
+        9x for 30007435
+        3x for 30008393
+        2x for 30008394
+        4x for 30008426
+        2x for 30008484
+Monaco MIM: 5 sites
+        4x MAESTRO & 4x CPAI for 11760
+        3x MAESTRO & 3x CPAI for 11826
+        4x MAESTRO & 4x CPAI for 30006626
+        1x MAESTRO & 4x CPAI for 30007435
+        2x MAESTRO & 2x CPAI for 30008393
+MOSAIQ: 13 sites
+        1x for 11760
+        1x for 11826
+        1x for 17163
+        1x for 17465
+        2x for 30001104
+        1x for 30006626
+        1x for 30006743
+        1x for 30006744
+        1x for 30007021 (Missing SW version)
+        1x for 30008155
+        1x for 30008394 (Missing SW version)
+        1x for 30008426 (Missing SW version)
+        1x for 30008484 (Missing SW version)
+TELEPORT, VOICE, ASSIST, SMARTFLOW, SMARTCLINIC, KAIKU, MOA: No installations Recorded
+
+RTIMEA All SW's | Salesforce
+Thanks, and feel free to reach out if you have any questions or need adjustments.
+Best regards,
+Fernando
