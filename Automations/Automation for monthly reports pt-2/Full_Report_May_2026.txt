@@ -1,0 +1,183 @@
+================================================================================
+RCH | May 2026 – Software Installations & Data Check
+================================================================================
+
+Hello Team,
+Here's a quick update from the May CLM extract:
+
+Note: If you notice anything in this report that did not happen or installations that haven't been registered in CLM,
+please let us know so we can adjust accordingly to keep everything accurate.
+Important: Please make sure to insert the missing software version correctly where indicated.
+
+MOSAIQ: 1 sites
+    1x for 30001421 Account: 山西医科大学第一医院 (Invalid Version)
+
+ThinkQA / DOSIsoft, AQUA, Monaco, Monaco MIM, TELEPORT, VOICE, ASSIST, SMARTFLOW, SMARTCLINIC, KAIKU, MOA: No installations Recorded
+
+RCH All SW's | Salesforce
+Best regards,
+Fernando
+
+--------------------------------------------------------------------------------
+
+================================================================================
+REU | May 2026 – Software Installations & Data Check
+================================================================================
+
+Hello Team,
+Here's a quick update from the May CLM extract:
+
+Note: If you notice anything in this report that did not happen or installations that haven't been registered in CLM,
+please let us know so we can adjust accordingly to keep everything accurate.
+Important: Please make sure to insert the missing software version correctly where indicated.
+
+ThinkQA / DOSIsoft: 3 sites
+    1x for 11896 Account: Universitair Medisch Centrum Groningen
+    3x for 12744 Account: Fakultní nemocnice Plzeň (Invalid Version)
+    1x for 18754 Account: AZIENDA SANITARIA LOCALE 2 LANCIANO VASTO CHIETI (Invalid Version)
+AQUA: 1 sites
+    1x for 10860 Account: HOSPITAL PROVINCIAL DE CASTELLON
+Monaco: 6 sites
+    3x for 10024 Account: AZ.OSP.POLICLINICO DI MODENA
+    10x for 11896 Account: Universitair Medisch Centrum Groningen
+    1x for 12744 Account: Fakultní nemocnice Plzeň
+    4x for 12925 Account: AZ.OSP.SS.ANTONIO e BIAGIO e CESARE - ALESSANDRIA (Invalid Version)
+    1x for 17414 Account: AZ.OSPED.PER L'EMERGENZA CANNIZZARO
+    7x for 30005587 Account: Uniwersytecki Szpital Kliniczny nr 1 im. prof. Tadeusza Sokołowskiego PUM w Szczecinie (Invalid Version)
+Monaco MIM: 2 sites
+    2x MAESTRO & 2x CPAI for 12925 Account: AZ.OSP.SS.ANTONIO e BIAGIO e CESARE - ALESSANDRIA (Invalid Version)
+    3x MAESTRO & 3x CPAI for 30005587 Account: Uniwersytecki Szpital Kliniczny nr 1 im. prof. Tadeusza Sokołowskiego PUM w Szczecinie (Invalid Version)
+MOSAIQ: 2 sites
+    1x for 30005587 Account: Uniwersytecki Szpital Kliniczny nr 1 im. prof. Tadeusza Sokołowskiego PUM w Szczecinie (Missing SW Version)
+    1x for 30007327 Account: Ospedale di Castelfranco Veneto (Missing SW Version)
+SMARTCLINIC: 1 sites
+    1x for 11630 Account: Nottingham City Hospital NHS Trust (Missing SW Version)
+KAIKU: 1 sites
+    1x for 11529 Account: Sahlgrenska Universitetssjukhuset (Missing SW Version)
+
+TELEPORT, VOICE, ASSIST, SMARTFLOW, MOA: No installations Recorded
+
+REU All SW's | Salesforce
+Best regards,
+Fernando
+
+--------------------------------------------------------------------------------
+
+================================================================================
+RJP | May 2026 – Software Installations & Data Check
+================================================================================
+
+Hello Team,
+Here's a quick update from the May CLM extract:
+
+Note: If you notice anything in this report that did not happen or installations that haven't been registered in CLM,
+please let us know so we can adjust accordingly to keep everything accurate.
+Important: Please make sure to insert the missing software version correctly where indicated.
+
+ThinkQA / DOSIsoft: 1 sites
+    2x for 16145 Account: 日本赤十字社 長崎原爆病院
+Monaco: 1 sites
+    7x for 12600 Account: 地方独立行政法人奈良県立病院機構 奈良県総合医療センター (Invalid Version)
+Monaco MIM: 1 sites
+    6x MAESTRO & 6x CPAI for 12600 Account: 地方独立行政法人奈良県立病院機構 奈良県総合医療センター
+
+AQUA, MOSAIQ, TELEPORT, VOICE, ASSIST, SMARTFLOW, SMARTCLINIC, KAIKU, MOA: No installations Recorded
+
+RJP All SW's | Salesforce
+Best regards,
+Fernando
+
+--------------------------------------------------------------------------------
+
+================================================================================
+RNCA | May 2026 – Software Installations & Data Check
+================================================================================
+
+Hello Team,
+Here's a quick update from the May CLM extract:
+
+Note: If you notice anything in this report that did not happen or installations that haven't been registered in CLM,
+please let us know so we can adjust accordingly to keep everything accurate.
+Important: Please make sure to insert the missing software version correctly where indicated.
+
+Monaco: 1 sites
+    6x for 12108 Account: University Of Iowa (Invalid Version)
+Monaco MIM: 1 sites
+    6x MAESTRO & 6x CPAI for 12108 Account: University Of Iowa
+MOSAIQ: 4 sites
+    1x for 12076 Account: TIDALHEALTH PENINSULA REGIONAL INC (Missing SW Version)
+    1x for 30004487 Account: NOR LEA Hospital District (Missing SW Version)
+    1x for 30004899 Account: Adventist Health Lodi Memorial (Missing SW Version)
+    1x for 30008785 Account: The Cancer & Hematology Centers (Missing SW Version)
+SMARTCLINIC: 1 sites
+    1x for 30002148 Account: Lawrence Memorial Hospital (Missing SW Version)
+
+ThinkQA / DOSIsoft, AQUA, TELEPORT, VOICE, ASSIST, SMARTFLOW, KAIKU, MOA: No installations Recorded
+
+RNCA All SW's | Salesforce
+Best regards,
+Fernando
+
+--------------------------------------------------------------------------------
+
+================================================================================
+RSA | May 2026 – Software Installations & Data Check
+================================================================================
+
+Hello Team,
+Here's a quick update from the May CLM extract:
+
+Note: If you notice anything in this report that did not happen or installations that haven't been registered in CLM,
+please let us know so we can adjust accordingly to keep everything accurate.
+Important: Please make sure to insert the missing software version correctly where indicated.
+
+ThinkQA / DOSIsoft: 1 sites
+    1x for 30005704 Account: SUPORTE NUTRICIONAL E ONCOLOGIA LTDA
+Monaco: 2 sites
+    3x for 30001965 Account: Santa Casa de Misericórdia de Ponta Grossa (Invalid Version)
+    3x for 30008015 Account: Clinica Andes Salud Concepcion
+Monaco MIM: 1 sites
+    2x MAESTRO & 2x CPAI for 30001965 Account: Santa Casa de Misericórdia de Ponta Grossa (Invalid Version)
+MOSAIQ: 2 sites
+    1x for 30001965 Account: Santa Casa de Misericórdia de Ponta Grossa (Missing SW Version)
+    1x for 30005704 Account: SUPORTE NUTRICIONAL E ONCOLOGIA LTDA (Missing SW Version)
+
+AQUA, TELEPORT, VOICE, ASSIST, SMARTFLOW, SMARTCLINIC, KAIKU, MOA: No installations Recorded
+
+RSA All SW's | Salesforce
+Best regards,
+Fernando
+
+--------------------------------------------------------------------------------
+
+================================================================================
+RTIMEA | May 2026 – Software Installations & Data Check
+================================================================================
+
+Hello Team,
+Here's a quick update from the May CLM extract:
+
+Note: If you notice anything in this report that did not happen or installations that haven't been registered in CLM,
+please let us know so we can adjust accordingly to keep everything accurate.
+Important: Please make sure to insert the missing software version correctly where indicated.
+
+ThinkQA / DOSIsoft: 3 sites
+    1x for 30008484 Account: OFFICE OF THE MEDICAL SUPERINTENDENT CUM VICE PRINCIPAL (Invalid Version)
+    1x for 30008486 Account: BURDWAN MEDICAL COLLEGE (Invalid Version)
+    1x for 30008684 Account: RUKMANI BIRLA HOSPITAL (Invalid Version)
+Monaco: 2 sites
+    3x for 30007966 Account: J R TANTIA CHARITABLE TRUST
+    9x for 30008684 Account: RUKMANI BIRLA HOSPITAL (Invalid Version)
+Monaco MIM: 1 sites
+    7x MAESTRO & 7x CPAI for 30008684 Account: RUKMANI BIRLA HOSPITAL (Invalid Version)
+MOSAIQ: 2 sites
+    1x for 30008234 Account: MOTHER THERESSA EDUCATIONAL SOCIETY (Missing SW Version)
+    1x for 30008684 Account: RUKMANI BIRLA HOSPITAL (Missing SW Version)
+
+AQUA, TELEPORT, VOICE, ASSIST, SMARTFLOW, SMARTCLINIC, KAIKU, MOA: No installations Recorded
+
+RTIMEA All SW's | Salesforce
+Best regards,
+Fernando
+
+--------------------------------------------------------------------------------
