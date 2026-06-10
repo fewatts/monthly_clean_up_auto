@@ -7204,5 +7204,151 @@
                 "Children": []
             }
         ]
+    },
+    {
+        "Product Code": "#MOA",
+        "Product Name": "MOA",
+        "Children": [ 
+            {
+                "Product Code": "#MOA SW",
+                "Product Name": "MOA SOFTWARE",
+                "Children": []
+            },
+            {
+                "Product Code": "76000000001DSS",
+                "Product Name": "MOA PREMIUM USER LICENSE SUBSC",
+                "Children": []
+            },
+            {
+                "Product Code": "97610000000DS",
+                "Product Name": "MOA CUSTOMIZATION SERVICES",
+                "Children": []
+            },
+            {
+                "Product Code": "76400000000DS",
+                "Product Name": "MOA CORE IS",
+                "Children": []
+            },
+            {
+                "Product Code": "76401000000DS",
+                "Product Name": "MOA ADDL RPT TRN IS",
+                "Children": []
+            },
+            {
+                "Product Code": "76402000000DS",
+                "Product Name": "MOA ADDL DEPT CONFIG ADD ON IS",
+                "Children": []
+            },
+            {
+                "Product Code": "76403000000DS",
+                "Product Name": "MOA ADDL DB CONFIG ADD ON IS",
+                "Children": []
+            },
+            {
+                "Product Code": "76000000008",
+                "Product Name": "MOA COMPLIANCE IS",
+                "Children": []
+            },
+            {
+                "Product Code": "97605000000DS",
+                "Product Name": "MOA FOR MSQ CUSTOMER",
+                "Children": []
+            },
+            {
+                "Product Code": "97606000000DS",
+                "Product Name": "MOA FOR NON-MSQ CUSTOMERS",
+                "Children": []
+            },
+            {
+                "Product Code": "97660000000DS",
+                "Product Name": "MOA ADD DATABASE STR PER 50GB",
+                "Children": []
+            },
+            {
+                "Product Code": "97670000000DS",
+                "Product Name": "MOA ADD ONLN PT STOR PER 50GB",
+                "Children": []
+            },
+            {
+                "Product Code": "97680000000DS",
+                "Product Name": "MOA ADD OFF PT STOR PER 50GB",
+                "Children": []
+            },
+            {
+                "Product Code": "76000000006DS",
+                "Product Name": "MOA COMPLIANCE",
+                "Children": []
+            },
+            {
+                "Product Code": "76000000007DS",
+                "Product Name": "MOA COMPLIANCE ADDITIONAL USER",
+                "Children": []
+            },
+            {
+                "Product Code": "76000000003DS-D",
+                "Product Name": "MOA DEMO USER - ECS",
+                "Children": []
+            },
+            {
+                "Product Code": "SS76000000001-Z",
+                "Product Name": "MOA 2 USERS ECS PLATINUM",
+                "Children": []
+            },
+            {
+                "Product Code": "SS76000000002-Z",
+                "Product Name": "MOA 2 USERS-ECS MOP PLAT",
+                "Children": []
+            },
+            {
+                "Product Code": "76000000004DS",
+                "Product Name": "MOA ADDL USERS - ECS",
+                "Children": []
+            },
+            {
+                "Product Code": "76000000005DS",
+                "Product Name": "MOA ADDL USERS-ECS MANAGED OP",
+                "Children": []
+            },
+            {
+                "Product Code": "SS76000000004-Z",
+                "Product Name": "MOA ADDL USER ECS PLATINUM",
+                "Children": []
+            },
+            {
+                "Product Code": "SS76000000005-Z",
+                "Product Name": "MOA ADDL USER - ECS MOP PLAT",
+                "Children": []
+            },
+            {
+                "Product Code": "76000000000DS",
+                "Product Name": "MOA STANDARD USER LICENSE",
+                "Children": []
+            },
+            {
+                "Product Code": "76100000000DS",
+                "Product Name": "MOA PREMIUM USER LICENSE",
+                "Children": []
+            },
+            {
+                "Product Code": "76000000001DS",
+                "Product Name": "MOA 2 USERS - ELEKTA CLOUD SOL",
+                "Children": []
+            },
+            {
+                "Product Code": "76000000002DS",
+                "Product Name": "MOA 2 USERS - ECS MANAGED OP",
+                "Children": []
+            },
+            {
+                "Product Code": "76100000000DSS",
+                "Product Name": "MOA PREMIUM USER LICENSE SUBSC",
+                "Children": []
+            },
+            {
+                "Product Code": "MPS00000028",
+                "Product Name": "SAAS-IMP-MOA",
+                "Children": []
+            }
+        ]
     }
 ]

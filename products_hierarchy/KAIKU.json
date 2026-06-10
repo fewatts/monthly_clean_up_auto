@@ -1,0 +1,187 @@
+[
+    {   "Product Code": "#KAIKU",
+        "Product Name": "KAIKU",
+        "Children": [
+            {
+                "Product Code": "#KAIKU_SW",
+                "Product Name": "KAIKU SOFTWARE",
+                "Children": []
+            },
+            {
+                "Product Code": "60801000001SK",
+                "Product Name": "ESI CCDA EXPORT SW: MSQ-KAIKU",
+                "Children": []
+            },
+            {
+                "Product Code": "60000000100SK",
+                "Product Name": "ESI PRO IMP SW: MSQ-KAIKU",
+                "Children": []
+            },
+            {
+                "Product Code": "60502000000SK",
+                "Product Name": "ESI SCHEDULE EXPORT: MSQ-KAIKU",
+                "Children": []
+            },
+            {
+                "Product Code": "15700000019",
+                "Product Name": "MOSAIQ-KAIKU INTEGRATION SW+IS",
+                "Children": []
+            },
+            {
+                "Product Code": "1570000020S",
+                "Product Name": "KAIKU",
+                "Children": []
+            },
+            {
+                "Product Code": "15700000011",
+                "Product Name": "PT COMPANION-ADD TRAINING",
+                "Children": []
+            },
+            {
+                "Product Code": "15700000011",
+                "Product Name": "PT COMPANION-ADD TRAINING",
+                "Children": []
+            },
+            {
+                "Product Code": "90000000100SK",
+                "Product Name": "ESI PRO IMP IS: MSQ-KAIKU",
+                "Children": []
+            },
+            {
+                "Product Code": "90401608010SK",
+                "Product Name": "ESI CCDA EXPORT IS: MSQ-KAIKU",
+                "Children": []
+            },
+            {
+                "Product Code": "90403000014SK",
+                "Product Name": "ESI SCHEDULE EXP IS: MSQ-KAIKU",
+                "Children": []
+            },
+            {
+                "Product Code": "15700000010",
+                "Product Name": "PT COMPANION-IS",
+                "Children": []
+            },
+            {
+                "Product Code": "1570000025S",
+                "Product Name": "PT COMPANION PROFESSIONAL SVC",
+                "Children": []
+            },
+            {
+                "Product Code": "15700000018",
+                "Product Name": "PT COMPANION ADDL DEPT",
+                "Children": []
+            },
+            {
+                "Product Code": "1570000021S",
+                "Product Name": "KAIKU 1 MODULE SUBSCRIPTION",
+                "Children": []
+            },
+            {
+                "Product Code": "1570000022S",
+                "Product Name": "KAIKU 2 MODULE SUBSCRIPTION",
+                "Children": []
+            },
+            {
+                "Product Code": "1570000023S",
+                "Product Name": "KAIKU 3 MODULE SUBSCRIPTION",
+                "Children": []
+            },
+            {
+                "Product Code": "1570000024S",
+                "Product Name": "KAIKU 4+ MODULE SUBSCRIPTION",
+                "Children": []
+            },
+            {
+                "Product Code": "15700000013",
+                "Product Name": "MODULE FOR HEMATOLOGICAL MALIG",
+                "Children": []
+            },
+            {
+                "Product Code": "15700000014",
+                "Product Name": "MODULE FOR SURVIVORSHIP PATIEN",
+                "Children": []
+            },
+            {
+                "Product Code": "15700000015",
+                "Product Name": "MODULE FOR SYSTEMIC THERAPIES",
+                "Children": []
+            },
+            {
+                "Product Code": "15700000016",
+                "Product Name": "MODULE FOR RADIOTHERAPY",
+                "Children": []
+            },
+            {
+                "Product Code": "15700000017",
+                "Product Name": "MODULE FOR IMMUNOTHERAPY/COMBO",
+                "Children": []
+            },
+            {
+                "Product Code": "15700000026",
+                "Product Name": "PATIENT COMPANION MO SUBS",
+                "Children": []
+            },
+            {
+                "Product Code": "15700000027",
+                "Product Name": "KAIKU HEALTH RO SUBSCRIPTION",
+                "Children": []
+            },
+            {
+                "Product Code": "15700000028",
+                "Product Name": "PATIENT COMPANION SUBSCRIPTION",
+                "Children": []
+            }, 
+            {
+                "Product Code": "15700000002",
+                "Product Name": "KAIKU-1 MODULE 501-1000 PAT, YR",
+                "Children": []
+            },
+            {
+                "Product Code": "15700000003",
+                "Product Name": "KAIKU-1 MOD 1001-1500 PAT, YR",
+                "Children": []
+            },
+            {
+                "Product Code": "15700000001",
+                "Product Name": "KAIKU-1 MODULE 0-500 PAT, YR",
+                "Children": []
+            },
+            {
+                "Product Code": "15700000004",
+                "Product Name": "KAIKU-1 MOD 1501-2000 PAT, YR",
+                "Children": []
+            },
+            {
+                "Product Code": "15700000005",
+                "Product Name": "KAIKU-1 MOD 2001-2500 PAT, YR",
+                "Children": []
+            },
+            {
+                "Product Code": "15700000006",
+                "Product Name": "KAIKU-1 MOD 2500-5000 PAT, YR",
+                "Children": []
+            },
+            {
+                "Product Code": "15700000007",
+                "Product Name": "KAIKU-2ND MODULE, YEARLY FEE",
+                "Children": []
+            },
+            {
+                "Product Code": "15700000008",
+                "Product Name": "KAIKU-3RD MODULE, YEARLY FEE",
+                "Children": []
+            },
+            {
+                "Product Code": "15700000009",
+                "Product Name": "KAIKU-4TH + MODULES YEARLY FEE",
+                "Children": []
+            },
+            {
+                "Product Code": "15700000012",
+                "Product Name": "KAIKU-ADDITIONAL CARE UNIT-YR",
+                "Children": []
+            }
+        ]
+    }
+]

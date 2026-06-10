@@ -168,7 +168,7 @@ def clean_status(df, product_hierarchy, cutoff_date_str, result_name):
     # Filter output layout properties
     selected_cols = [
         'Installed Product ID', 'right sts', 'Status', 'sts equals parent?', 'Date Installed',
-        'Full Location Movex Id', 'Sibex Name', 'Customer/Device Acceptance Date', 
+        'Full Location Movex Id', 'Product: Product Code', 'Customer/Device Acceptance Date', 
         'Quantity', 'Account Region', 'Created Date', 'Date Shipped'
     ]
     

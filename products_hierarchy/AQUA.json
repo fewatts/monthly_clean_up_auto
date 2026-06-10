@@ -1,20 +1,146 @@
 {
-  "Sibex Name": "AQUA",
+  "Product Code": "#AQUA",
   "Product Name": "AQUA",
   "Children": [
     {
-      "Sibex Name": "AQUA SOFTWARE",
+      "Product Code": "8005000",
       "Product Name": "AQUA BASE LICENSE",
-      "Children": [
-        { "Sibex Name": "AQUA ADDITIONAL DEVICE LICENSE", "Product Name": "TRT 7411-AQUA ADD DEVICE", "Children": [] },
-        { "Sibex Name": "AQUA BRACHY DEVICE LICENSE",      "Product Name": "AQUA BRACHYTHERAPY DEVICE LIC", "Children": [] },
-        { "Sibex Name": "AQUA DIAGNOSTIC DEVICE LICENSE",  "Product Name": "AQUA DIAGNOSTIC DEVICE LICENSE", "Children": [] },
-        { "Sibex Name": "AQUA MRL DEVICE LICENSE",         "Product Name": "AQUA MR LINAC DEVICE LICENSE", "Children": [] },
-        { "Sibex Name": "AQUA MRL DEV LIC",                "Product Name": "MRT 29671, AQUA MRL DEVICE LIC", "Children": [] },
-        { "Sibex Name": "AQUA TREATMENT DEVICE LICENSE",   "Product Name": "AQUA TREATMENT DEVICE LICENSE", "Children": [] },
-        { "Sibex Name": "AQUA3.0BRACHY DEV LIC",              "Product Name": "MRT32081,AQUA3.0BRACHY DEV LIC", "Children": [] },
-        { "Sibex Name": "PRT 0131, AQUA SERVER",              "Product Name": "PRT 0131, AQUA SERVER", "Children": [] }
-      ]
+      "Children": []
+    },
+    {
+      "Product Code": "1541637",
+      "Product Name": "MRT 29531, AQUA BASE LICENSE",
+      "Children": []
+    },
+    {
+      "Product Code": "1517662",
+      "Product Name": "TRT 7401 - AQUA BASE LICENSE",
+      "Children": []
+    },
+    {
+      "Product Code": "1554711",
+      "Product Name": "MRT32311 AQUA 3.0 BASE LICENSE",
+      "Children": []
+    },
+    {
+      "Product Code": "1567024",
+      "Product Name": "MRT 32311 AQUA 3.0.1 LICENSE",
+      "Children": []
+    },
+    {
+      "Product Code": "1567895",
+      "Product Name": "MRT 32311 AQUA 3.0.2 LICENSE",
+      "Children": []
+    },
+    {
+      "Product Code": "C#89525-32",
+      "Product Name": "AQUA 3.2 MACHINE QA SW LIC",
+      "Children": []
+    },
+    {
+      "Product Code": "C#89530-32",
+      "Product Name": "AQUA 3.2 SOFTWARE SUBSCRIPTION",
+      "Children": []
+    },
+    {
+      "Product Code": "C#89525-33",
+      "Product Name": "AQUA 3.3 MACHINE QA SW LIC",
+      "Children": []
+    },
+    {
+      "Product Code": "1517663",
+      "Product Name": "TRT 7411-AQUA ADD DEVICE",
+      "Children": []
+    },
+    {
+      "Product Code": "C#89529",
+      "Product Name": "AQUA BRACHYTHERAPY DEVICE LIC",
+      "Children": []
+    },
+    {
+      "Product Code": "C#89534",
+      "Product Name": "AQUA BRACHYTHERAPY SUBSCR",
+      "Children": []
+    },
+    {
+      "Product Code": "8005001",
+      "Product Name": "AQUA DIAGNOSTIC DEVICE LICENSE",
+      "Children": []
+    },
+    {
+      "Product Code": "1543771",
+      "Product Name": "MRT 29681, AQUA DIAGNOSTIC LIC",
+      "Children": []
+    },
+    {
+      "Product Code": "1554713",
+      "Product Name": "MRT 32061 AQUA 3.0 DGN LICENSE",
+      "Children": []
+    },
+    {
+      "Product Code": "C#89528",
+      "Product Name": "AQUA DIAGNOSTIC DEVICE LIC",
+      "Children": []
+    },
+    {
+      "Product Code": "C#89532",
+      "Product Name": "AQUA DX SYSTEM SUBSCRIPTION",
+      "Children": []
+    },
+    {
+      "Product Code": "8005002",
+      "Product Name": "AQUA MR LINAC DEVICE LICENSE",
+      "Children": []
+    },
+    {
+      "Product Code": "1543770",
+      "Product Name": "MRT 29671, AQUA MRL DEVICE LIC",
+      "Children": []
+    },
+    {
+      "Product Code": "1554714",
+      "Product Name": "MRT 32071 AQUA 3.0 MRL DEV LIC",
+      "Children": []
+    },
+    {
+      "Product Code": "C#89527",
+      "Product Name": "AQUA MRL DEVICE LIC",
+      "Children": []
+    },
+    {
+      "Product Code": "C#89533",
+      "Product Name": "AQUA MR LINAC SUBSCRIPTION",
+      "Children": []
+    },
+    {
+      "Product Code": "8005003",
+      "Product Name": "AQUA TREATMENT DEVICE LICENSE",
+      "Children": []
+    },
+    {
+      "Product Code": "1541636",
+      "Product Name": "MRT29541 AQUA TRMNT DEVICE LIC",
+      "Children": []
+    },
+    {
+      "Product Code": "1554712",
+      "Product Name": "MRT32051 AQUA 3.0 TRMT DEV LIC",
+      "Children": []
+    },
+    {
+      "Product Code": "C#89526",
+      "Product Name": "AQUA TREATMENT DEVICE LIC",
+      "Children": []
+    },
+    {
+      "Product Code": "C#89531",
+      "Product Name": "AQUA TX SYSTEM SUBSCRIPTION",
+      "Children": []
+    },
+    {
+      "Product Code": "1554715",
+      "Product Name": "MRT32081 AQUA 3.0 BRACHY DEV LIC",
+      "Children": []
     }
   ]
 }
