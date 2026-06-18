@@ -370,12 +370,26 @@ def populate_parent_by_hierarchy_dict(df, hierarchy_data):
 
 def _check_parent_status_consistency(group):
     """[PRIVATE] Resolves tracking state alignment cascading loops rules inside local dataframe node groups."""
+    group = group.copy()
+    
     parent_dict = group.set_index('Installed Product')['Parent: Installed Product'].to_dict()
     status_dict = group.set_index('Installed Product')['Status'].to_dict()
-    latest_acceptance_date = group['Customer/Device Acceptance Date'].min()
+    
+    # CORREÇÃO AQUI: Força a conversão para datetime antes de puxar o valor mínimo
+    warranty_dates = pd.to_datetime(group['Warranty Start Date'], errors='coerce')
+    latest_acceptance_date = warranty_dates.min()
+
+    # --- Rule 2.1: SPECIAL CASE FOR AQUA (If SW is Installed, consider all the rest) ---
+    aqua_sw_rows = group[group['Sibex Name'] == 'AQUA SOFTWARE']
+    if not aqua_sw_rows.empty and aqua_sw_rows.iloc[0]['Status'] == 'Installed':
+        group['right sts'] = 'Installed'
+        group['sts equals parent?'] = group.apply(lambda r: "True" if r['Status'] == r['right sts'] else "False", axis=1)
+        group['Date Installed'] = pd.NaT
+        mask = (group['sts equals parent?'] == "False") & (group['right sts'] == "Installed")
+        group.loc[mask, 'Date Installed'] = latest_acceptance_date
+        return group
 
     # --- Rule 2: Explicit alignment check for MD and SW component pairs ---
-    # Mapping dictionary reflecting the exact pairs from your Sibex product rules
     product_pairs = {
         'AQUA': 'AQUA SOFTWARE',
         'DOSISOFT': ['DOSISOFT SW', 'THINKQA FOR'],
@@ -389,23 +403,16 @@ def _check_parent_status_consistency(group):
         'MOSAIQ Oncology Analytics': 'MOA Software'
     }
     
-    # Iterate through the defined MD/SW mapping to check current group rows
     for md_name, sw_mapping in product_pairs.items():
-        # Ensure sw_mapping is treated as a list (handling cases like DOSISOFT with multiple SW names)
         sw_names = sw_mapping if isinstance(sw_mapping, list) else [sw_mapping]
         
-        # Filter rows for the master device (MD)
         md_rows = group[group['Sibex Name'] == md_name]
-        
-        # Filter rows for any of the corresponding software names (SW)
         sw_rows = group[group['Sibex Name'].isin(sw_names)]
         
-        # If both parts of the pair exist in the current group, apply alignment rules
         if not md_rows.empty and not sw_rows.empty:
             sts_md = md_rows.iloc[0]['Status']
             sts_sw = sw_rows.iloc[0]['Status']
             
-            # If statuses are aligned between the MD and SW components
             if sts_md == sts_sw:
                 group['right sts'] = sts_md
                 group['sts equals parent?'] = group.apply(lambda r: "True" if r['Status'] == r['right sts'] else "False", axis=1)
