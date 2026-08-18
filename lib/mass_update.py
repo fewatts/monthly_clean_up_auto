@@ -35,18 +35,12 @@ def clean_quantity(df, result_name='final_quantity_result.xlsx'):
     
     return result
 
-def clean_product_hierarchy(df, product_hierarchy, result_name, ib_tracked_df=None):
+def clean_product_hierarchy(df, product_hierarchy, result_name):
     """
     Cleans the installed product hierarchy columns based on a filtered product hierarchy
     and exports only the finalized correction spreadsheet directly to Excel.
     """
-    # Filter the hierarchy dictionary using valid codes from ib_tracked_df if provided
-    if ib_tracked_df is not None:
-        allowed_codes = set(ib_tracked_df['Product Code'].astype(str).str.strip())
-        product_hierarchy = filter_hierarchy_by_allowed_codes(product_hierarchy, allowed_codes)
-        if not product_hierarchy:
-            product_hierarchy = {}
-        
+ 
     # Find IDs with duplicated fathers and remove them from processing
     duplicated_father_ids = find_locations_with_duplicated_fathers(df, product_hierarchy)
     IPs_with_no_duplicated_father_filtered = filter_df(df, duplicated_father_ids)
@@ -212,32 +206,36 @@ def filter_df(df, full_location_movex_id_list):
     return df.groupby('Full Location Movex Id').filter(lambda group: group.name not in full_location_movex_id_list)
 
 def filter_df_by_hierarchy_json(df, json_path):
-    """[PRIVATE] Loads a hierarchy JSON file from a specific path, extracts product names and sibex names, and filters rows."""
+    """[PRIVATE] Loads a hierarchy JSON file from a specific path, extracts product codes and product names, and filters rows."""
     with open(json_path, 'r', encoding='utf-8') as file:
         hierarchy_json = json.load(file)
 
-    allowed_sibex_names = set()
-    allowed_product_names = set()
+    allowed_codes = set()
+    allowed_names = set()
 
-    def extract_names_recursively(node_list):
+    def extract_identifiers_recursively(node_list):
         nodes = node_list if isinstance(node_list, list) else [node_list]
         for node in nodes:
             if isinstance(node, dict):
-                if node.get("Sibex Name"):
-                    allowed_sibex_names.add(str(node["Sibex Name"]).strip().upper())
+                if node.get("Product Code"):
+                    allowed_codes.add(str(node["Product Code"]).strip().upper())
                 if node.get("Product Name"):
-                    allowed_product_names.add(str(node["Product Name"]).strip().upper())
+                    allowed_names.add(str(node["Product Name"]).strip().upper())
+                
                 children = node.get("Children", [])
                 if children:
-                    extract_names_recursively(children)
+                    extract_identifiers_recursively(children)
 
-    extract_names_recursively(hierarchy_json)
-    df_sibex_upper = df['Sibex Name'].astype(str).str.strip().str.upper()
-    df_product_upper = df['Product: Product Name'].astype(str).str.strip().str.upper()
+    extract_identifiers_recursively(hierarchy_json)
 
-    mask_sibex = df_sibex_upper.isin(allowed_sibex_names)
-    mask_product = df_product_upper.isin(allowed_product_names)
-    return df[mask_sibex | mask_product].copy()
+    # Tratamento das colunas do DataFrame principal
+    df_code_upper = df['Product: Product Code'].astype(str).str.strip().str.upper()
+    df_name_upper = df['Product: Product Name'].astype(str).str.strip().str.upper()
+
+    mask_code = df_code_upper.isin(allowed_codes)
+    mask_name = df_name_upper.isin(allowed_names)
+
+    return df[mask_code | mask_name].copy()
 
 def filter_hierarchy_by_allowed_codes(hierarchy_node, allowed_codes):
     """[PRIVATE] Recursively filters a hierarchy tree, keeping only nodes within the allowed_codes set."""
