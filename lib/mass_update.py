@@ -120,9 +120,9 @@ def clean_product_hierarchy(df, product_hierarchy, result_name):
 def clean_status(df, product_hierarchy, cutoff_date_str, result_name):
     """
     Cleans structural status alignment anomalies based on chronological hierarchy metrics,
-    drops locations with duplicated fathers, and writes the output to an Excel spreadsheet.
+    drops locations with duplicated fathers, filters for mismatches only, formats dates,
+    replaces original Status with right sts, and writes the output to Excel.
     """
-    # Parse parameter date structures
     cutoff_date = pd.to_datetime(cutoff_date_str)
     
     df_working = df.copy()
@@ -130,51 +130,57 @@ def clean_status(df, product_hierarchy, cutoff_date_str, result_name):
     df_working['Date Shipped'] = pd.to_datetime(df_working['Date Shipped'], errors='coerce')
     df_working['Customer/Device Acceptance Date'] = pd.to_datetime(df_working['Customer/Device Acceptance Date'], errors='coerce')
     
-    # CRITICAL: Exclude locations containing duplicated parent structures
     duplicated_father_ids = find_locations_with_duplicated_fathers(df_working, product_hierarchy)
     df_filtered = filter_df(df_working, duplicated_father_ids)
     
     if df_filtered.empty:
-        empty_df = pd.DataFrame()
+        empty_df = pd.DataFrame(columns=['Installed Product ID', 'Status', 'sts equals parent?', 'Date Installed', 'Full Location Movex Id'])
         empty_df.to_excel(result_name, index=False)
         return empty_df
         
-    # Evaluate chronological logic cutoff metrics per unique movex structural node group
     group_dates = df_filtered.groupby('Full Location Movex Id').agg({'Created Date': 'max', 'Date Shipped': 'max'})
     ids_to_process = group_dates[(group_dates['Created Date'] < cutoff_date) & (group_dates['Date Shipped'] < cutoff_date)].index
     
     df_to_process = df_filtered[df_filtered['Full Location Movex Id'].isin(ids_to_process)].copy()
     
-    # Remove groups already presenting uniform singular status profiles
     if not df_to_process.empty:
         group_status_counts = df_to_process.groupby('Full Location Movex Id')['Status'].nunique()
         uniform_status_groups = group_status_counts[group_status_counts == 1].index
         df_to_process = df_to_process[~df_to_process['Full Location Movex Id'].isin(uniform_status_groups)]
         
-    # Execute structural cascading evaluation logic per structural node grouping
     if not df_to_process.empty:
-        processed_data = df_to_process.groupby('Full Location Movex Id', group_keys=False).apply(_check_parent_status_consistency)
+        processed_data = df_to_process.groupby('Full Location Movex Id', group_keys=False, as_index=False).apply(_check_parent_status_consistency)
         if 'Full Location Movex Id' not in processed_data.columns:
             processed_data = processed_data.reset_index()
     else:
         processed_data = pd.DataFrame()
-        
-    # Filter output layout properties
-    selected_cols = [
-        'Installed Product ID', 'right sts', 'Status', 'sts equals parent?', 'Date Installed',
-        'Full Location Movex Id', 'Product: Product Code', 'Customer/Device Acceptance Date', 
-        'Quantity', 'Account Region', 'Created Date', 'Date Shipped'
-    ]
     
-    cols_processed = [c for c in selected_cols if c in processed_data.columns]
-    final_output = processed_data[cols_processed].copy() if not processed_data.empty else pd.DataFrame(columns=selected_cols)
-    
-    if not final_output.empty and 'Date Installed' in final_output.columns:
-        final_output['Date Installed'] = final_output['Date Installed'].dt.date
+    # 1. Filtra apenas as linhas com divergência (sts equals parent? == "False")
+    if not processed_data.empty and 'sts equals parent?' in processed_data.columns:
+        final_output = processed_data[processed_data['sts equals parent?'] == 'False'].copy()
+    else:
+        final_output = pd.DataFrame()
+
+    if not final_output.empty:
+        # 2. Remove a coluna 'Status' antiga caso exista
+        if 'Status' in final_output.columns:
+            final_output = final_output.drop(columns=['Status'])
         
-    # Export the final single targeted spreadsheet layout to Excel
+        # 3. Renomeia 'right sts' para assumir o lugar de 'Status'
+        final_output = final_output.rename(columns={'right sts': 'Status'})
+        
+        # 4. Formata a data para 'YYYY-MM-DD' sem hora
+        if 'Date Installed' in final_output.columns:
+            final_output['Date Installed'] = pd.to_datetime(final_output['Date Installed']).dt.strftime('%Y-%m-%d')
+        
+        # 5. Seleciona e ordena as colunas desejadas incluindo a 'Full Location Movex Id'
+        target_columns = ['Installed Product ID', 'Status', 'sts equals parent?', 'Date Installed', 'Full Location Movex Id']
+        cols_to_keep = [c for c in target_columns if c in final_output.columns]
+        final_output = final_output[cols_to_keep].copy()
+    else:
+        final_output = pd.DataFrame(columns=['Installed Product ID', 'Status', 'sts equals parent?', 'Date Installed', 'Full Location Movex Id'])
+        
     final_output.to_excel(result_name, index=False)
-    
     return final_output
 
 # --- PRIVATE HELPER FUNCTIONS ---
