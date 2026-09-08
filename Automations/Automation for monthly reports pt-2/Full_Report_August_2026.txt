@@ -9,7 +9,7 @@ Note: If you notice anything in this report that did not happen or installations
 please let us know so we can adjust accordingly to keep everything accurate.
 Important: Please make sure to insert the missing software version correctly where indicated.
 
-Monaco: 1 sites
+Monaco: 1 site
     2x for 30003692 Account: BAGAN SPECIALIST CENTRE (Invalid Version)
 
 ThinkQA / DOSIsoft, AQUA, Monaco MIM, MOSAIQ, TELEPORT, VOICE, ASSIST, SMARTFLOW, SMARTCLINIC, KAIKU, MOA: No installations Recorded
@@ -61,8 +61,9 @@ Note: If you notice anything in this report that did not happen or installations
 please let us know so we can adjust accordingly to keep everything accurate.
 Important: Please make sure to insert the missing software version correctly where indicated.
 
-ThinkQA / DOSIsoft: 4 sites
+ThinkQA / DOSIsoft: 5 sites
     1x for 12856 Account: Białostockie Centrum Onkologii im. M. Skłodowskiej-Curie w Białymstoku
+    1x for 17253 Account: CASA DI CURA MACCHIARELLA S.P.A. (Invalid Version)
     1x for 30000448 Account: NU-MED CENTRUM DIAGNOSTYKI I TERAPII ONKOLOGICZNEJ KATOWICE SP. Z O.O. (Invalid Version)
     2x for 30006387 Account: Specjalistyczny Szpital im. dr Alfreda Sokołowskiego w Wałbrzychu (Invalid Version)
     1x for 30007327 Account: Ospedale di Castelfranco Veneto (Invalid Version)
