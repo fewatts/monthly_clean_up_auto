@@ -14,9 +14,17 @@ def find_duplicated_master_device(master_device_type, df):
 def find_missing_master_device(master_device_type, df):
     """Returns a list of full location movex id containing the locations that has not a master device"""
     df = df.sort_values('Movex Account Number')
-    full_location_movex_id_missing_md = df.groupby('Full Location Movex Id').filter(
+    
+    mask = (
+        (df['Master Device: Installed Product'].isna() | (df['Master Device: Installed Product'].astype(str).str.strip() == '')) &
+        (df['Status'].astype(str).str.upper() == 'INSTALLED')
+    )
+    df_filtered = df[mask]
+    
+    full_location_movex_id_missing_md = df_filtered.groupby('Full Location Movex Id').filter(
         lambda x: (x['Sibex Name'].str.upper() == master_device_type).sum() == 0
     )
+    
     return full_location_movex_id_missing_md['Full Location Movex Id'].unique().tolist()
 
 def generate_dosisoft_comparison_report(all_data, sales_report, hierarchy_json_path, output_filename='DOSIsoft_Comparison_Report.xlsx'):
